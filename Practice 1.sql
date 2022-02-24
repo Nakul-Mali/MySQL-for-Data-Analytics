@@ -39,6 +39,8 @@ select * from customers where salary >2000 and salary <5000;
 select * from customers where salary in (2000, 5000);
 select * from customers where salary between 2000 and 5000;
 select * from customers where age >25 OR salary >=6500;
+select ID,NAME,AGE,SALARY from customers where salary > 2000 or age <25;
+select * from customers where salary > 2000 and age < 25;
 select * from customers where age is not null;
 select * from customers where name like 'ko%';
 
